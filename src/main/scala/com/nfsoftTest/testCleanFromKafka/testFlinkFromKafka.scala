@@ -187,7 +187,7 @@ object testFlinkFromKafka {
                 logSegArr(24),
                 logSentTime
               )
-              print(appHeartBeatLog + "\n\n\n")
+//              print(appHeartBeatLog + "\n\n\n")
               //测试通过
             }
             case (2, 1) => {
@@ -235,7 +235,7 @@ object testFlinkFromKafka {
                 logSentTime
               )
              //测试通过，没有脏数据
-               print(clientLog+ "\n\n\n")
+//               print(clientLog+ "\n\n\n")
 
             }
             case (2, 2) => {
