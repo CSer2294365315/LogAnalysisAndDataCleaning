@@ -1,16 +1,8 @@
-package com.atguigu.wc
+package com.nfsoftTest.wc
 
 import org.apache.flink.api.scala._
 
-/**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: FlinkTutorial
-  * Package: com.atguigu.wc
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/7/3 11:30
-  */
+
 object WordCount {
   def main(args: Array[String]): Unit = {
     // 1. 创建一个执行环境
